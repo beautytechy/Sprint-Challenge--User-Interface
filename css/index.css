@@ -70,14 +70,12 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+
 nav {
-    width: 800px;
-	display: flex;
+    display: flex;
     justify-content: space-evenly;
     padding-bottom: 40px;
     padding-top: 20px;
-    margin-left: 140px;
-
 }
 
 nav a {
@@ -87,11 +85,7 @@ nav a {
 }
 
 .header-img {
-    display: flex;
-    justify-content: center;
     width: 800px;
-    margin: 0 auto;
-    padding-bottom: 40px;
 }
 
 .top-content {
@@ -99,6 +93,7 @@ nav a {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
+    margin-top: 20px;
     border-bottom: 1px dashed black;
 }
 
