@@ -57,7 +57,7 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-size: 16px;
+    font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
@@ -66,13 +66,13 @@ p {
     line-height: 1.4;
 }
 
-.container-about-page {
+.container-products-page {
     width: 800px;
     margin: 0 auto;
 }
 
 nav {
-	display: flex;
+    display: flex;
     justify-content: space-evenly;
     padding-bottom: 40px;
     padding-top: 20px;
@@ -86,66 +86,4 @@ nav a {
 
 .header-img {
     width: 800px;
-}
-
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
-}
-
-.product-list .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.top-section {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 20px;
-    width: 800px;
-}
-.content-boxes {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 20px;
-    justify-content: space-between;
-    width: 800px;
-}
-
-.content-boxes div {
-    width: 48%;
- 
-}
-
-.content-boxes img {
-    margin-bottom: 10px;
-}
-button {
-    padding: 5px;
-    padding-left: 15px;
-    padding-right: 15px;
-    border-radius: 10px;
-    border: 2px solid black;
-    margin-top: 20px;
-    font-size: 14px;
-}
-
-footer {
-    width: 100%;
-    background: black;
-}
-
-footer nav {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
-}
-
-footer nav a {
-    color: white;
-    text-decoration: none;
 }

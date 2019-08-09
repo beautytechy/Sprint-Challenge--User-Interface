@@ -57,7 +57,7 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-size: 16px;
+    font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
@@ -66,13 +66,13 @@ p {
     line-height: 1.4;
 }
 
-.container-about-page {
+.container-products-page {
     width: 800px;
     margin: 0 auto;
 }
 
 nav {
-	display: flex;
+    display: flex;
     justify-content: space-evenly;
     padding-bottom: 40px;
     padding-top: 20px;
@@ -86,49 +86,65 @@ nav a {
 
 .header-img {
     width: 800px;
+    margin: 20px;
 }
-
-.middle-content h2 {
+.product-list {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    }
+    
+.product-list  h2 {
     padding: 0 2%;
     margin-bottom: 0;
-}
-
+    }
+    
 .product-list .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-}
+    }
 
-.top-section {
+.product-list .boxes .box {
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
     display: flex;
-    flex-wrap: wrap;
-    margin: 20px;
-    width: 800px;
-}
-.content-boxes {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 20px;
-    justify-content: space-between;
-    width: 800px;
+    align-items: center;
+    justify-content: center;
 }
 
-.content-boxes div {
-    width: 48%;
- 
+#box1 {
+    background: teal;
+  
 }
-
-.content-boxes img {
-    margin-bottom: 10px;
+#box2 {
+    background: gold;
 }
-button {
-    padding: 5px;
-    padding-left: 15px;
-    padding-right: 15px;
-    border-radius: 10px;
-    border: 2px solid black;
-    margin-top: 20px;
-    font-size: 14px;
+#box3 {
+    background: cadetblue;
+}
+#box4 {
+    background: coral;
+}
+#box5 {
+    background: crimson;
+}
+#box6 {
+    background: forestgreen;
+}
+#box7 {
+    background: darkorchid;
+}
+#box8 {
+    background: hotpink;
+}
+#box9 {
+    background: indigo;
+}
+#box10 {
+    background: dodgerblue;
 }
 
 footer {
