@@ -88,6 +88,10 @@ nav a {
     width: 800px;
 }
 
+hr {
+    border: 0.5px dashed black;
+}
+
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
