@@ -136,6 +136,11 @@ footer {
     background: black;
 }
 
+.content-boxes .last-section {
+width: 100%;
+margin: 10px;
+}
+
 footer nav {
     width: 60%;
     display: flex;
