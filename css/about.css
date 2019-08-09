@@ -90,6 +90,8 @@ nav a {
 
 hr {
     border: 0.5px dashed black;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .middle-content h2 {
