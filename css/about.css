@@ -73,7 +73,7 @@ p {
 
 nav {
 	display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding-bottom: 40px;
     padding-top: 20px;
 }

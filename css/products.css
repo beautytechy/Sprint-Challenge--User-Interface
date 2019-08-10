@@ -73,7 +73,7 @@ p {
 
 nav {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding-bottom: 40px;
     padding-top: 20px;
 }
@@ -90,9 +90,15 @@ nav a {
 }
 .product-list {
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
     }
-    
+
+.product-list .text-container-products {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    width: 800px;
+    }
+
 .product-list  h2 {
     padding: 0 2%;
     margin-bottom: 0;
@@ -116,35 +122,17 @@ nav a {
 }
 
 #box1 {
-    background: teal;
+    background: rgb(0, 2, 128);
   
 }
 #box2 {
-    background: gold;
+    background: rgb(123, 0, 255);
 }
 #box3 {
-    background: cadetblue;
+    background: rgb(70, 185, 95);
 }
 #box4 {
-    background: coral;
-}
-#box5 {
-    background: crimson;
-}
-#box6 {
-    background: forestgreen;
-}
-#box7 {
-    background: darkorchid;
-}
-#box8 {
-    background: hotpink;
-}
-#box9 {
-    background: indigo;
-}
-#box10 {
-    background: dodgerblue;
+    background: rgb(224, 134, 218);
 }
 
 footer {
