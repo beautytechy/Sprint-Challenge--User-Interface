@@ -57,7 +57,7 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
@@ -66,13 +66,13 @@ p {
     line-height: 1.4;
 }
 
-.container {
+.container-about-page {
     width: 800px;
     margin: 0 auto;
 }
 
 nav {
-    display: flex;
+	display: flex;
     justify-content: space-between;
     padding-bottom: 40px;
     padding-top: 20px;
@@ -88,24 +88,10 @@ nav a {
     width: 800px;
 }
 
-.top-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    border-bottom: 1px dashed black;
-}
-
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
-}
-
-.middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+hr {
+    border: 0.5px dashed black;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .middle-content h2 {
@@ -113,71 +99,52 @@ nav a {
     margin-bottom: 0;
 }
 
-.middle-content .boxes {
+.product-list .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
+.top-section {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+    width: 800px;
 }
-
-#box1 {
-    background: teal;
-}
-#box2 {
-    background: gold;
-}
-#box3 {
-    background: cadetblue;
-}
-#box4 {
-    background: coral;
-}
-#box5 {
-    background: crimson;
-}
-#box6 {
-    background: forestgreen;
-}
-#box7 {
-    background: darkorchid;
-}
-#box8 {
-    background: hotpink;
-}
-#box9 {
-    background: indigo;
-}
-#box10 {
-    background: dodgerblue;
-}
-
-.bottom-content {
+.content-boxes {
     display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+    justify-content: space-between;
+    width: 800px;
 }
 
-.bottom-content .text-container {
-    padding-right: 4%;
+.content-boxes div {
+    width: 48%;
+ 
 }
 
-.bottom-content .text-container:last-child {
-    padding-right: 0;
+.content-boxes img {
+    margin-bottom: 10px;
+}
+button {
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-top: 20px;
+    font-size: 14px;
 }
 
 footer {
     width: 100%;
     background: black;
+}
+
+.content-boxes .last-section {
+width: 100%;
+margin: 10px;
 }
 
 footer nav {
